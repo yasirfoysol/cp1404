@@ -1,0 +1,57 @@
+Assignment 1 — Books to Read
+
+CP1404/CP5632 – IT@JCU
+By: Yasir Foysol Rahib
+
+Project Overview
+
+This project is a command-line Python program for managing a personal reading list.
+It allows the user to:
+
+Load and display books from a CSV file
+
+Add new books with validation
+
+Mark books as completed
+
+Save all changes back to the file upon exit
+
+The program focuses on clean function design, input validation, and user-friendly output formatting, following the principles of modular programming and code readability.
+
+Repository Contents
+File	Description
+assignment1.py	Main Python program implementing all required functionality
+books.csv	Primary data file storing all book information (title, author, pages, status)
+books_backup.csv	Backup copy of the original CSV data (not used by the program)
+README.md	This file — project documentation and reflection
+ How It Works
+
+When the program starts, it loads data from books.csv.
+
+The main menu lets users choose to:
+
+D – Display all books (sorted by author and title)
+
+A – Add a new book (validated for blank or invalid input)
+
+C – Mark an unread book as completed
+
+Q – Save all changes and quit
+
+The program automatically updates books.csv when quitting, ensuring all modifications persist.
+
+ Development Reflection
+
+How long did the entire project take?
+Approximately 6–7 hours in total — including understanding the requirements, writing and testing the code, fixing formatting issues, and setting up Git/GitHub for version control.
+
+What will you do differently for Assignment 2?
+For Assignment 2, I plan to:
+
+Start the project earlier to have more time for testing and refinement.
+
+Write small pieces of code and test them immediately before moving to the next part.
+
+Commit changes more frequently with clear messages.
+
+Use consistent formatting and comments from the start to keep the code cleaner.
